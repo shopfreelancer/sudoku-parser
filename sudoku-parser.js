@@ -48,7 +48,7 @@ module.exports.SudokuFileParser = (function () {
         if(puzzles.length === 0){
             parseSudokuPuzzles();
         }
-        return puzzles
+        return puzzles;
     }
 
     /**
